@@ -1,44 +1,10 @@
-.body{
-    background-color: aquamarine;
-}
-.barrita{
-    background-color: gold;
+.hero{
+    background-color: aqua;
+    height: 130px;
+    
     
 }
-.yuri{
-    font-size: 48px;
+.titulo{
+    font-size: 60px;
     font-family: monospace;
-    text-decoration: none;
-    color:crimson
-}
-.hero{
-    background-color: darkolivegreen;
-    margin-top: 30px;
-}
-.choel{
-    margin-top: 20px;
-}
-.wipy{
-    background-color: blueviolet;
-}
-.wopy{
-    background-color: blanchedalmond;
-    font-family:cursive;
-    font-size: 25px;
-}
-.wupy{
-    background-color: brown;
-}
-.wapy{
-    background-color: red;
-    font-family: monospace;
-    font-size: 25px;
-}
-.elton{
-    background-color: salmon;
-}
-.john{
-    background-color: greenyellow;
-    font-family: fantasy;
-    font-size: 25px;
 }
