@@ -8,9 +8,12 @@
     background-color: #535C91;
 }
 .tipografia{
-    color: #d9d9e3;
+    color: white;
     font-style: italic;
 }
-.shadowImage{
-    background-color: #242448;
+.tipografia2{
+    color: #070F2B;
+    font-style: italic;
 }
+
+/* #d9d9e3 */

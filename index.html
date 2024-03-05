@@ -12,29 +12,25 @@
 </head>
 
 <body class="body colorTerciario">
-    <nav class="navbar navbar-expand-lg  colorSecundario ">
+    <nav class="navbar navbar-expand-md  colorSecundario ">
         <div class="container-fluid">
             <img class="" src="" alt="">
-            <a class="navbar-brand " href="#">
+            <a class="navbar-brand " href="./index.html">
                 <h2 class="tipografia">Turismo Patagonia </h2>
-                <svg xmlns="http://www.w3.org/2000/svg" width="240" height="26" fill="currentColor"
-                    class="bi bi-image-alt" viewBox="0 0 16 16">
-                    <path
-                        d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5z" />
-                </svg>
             </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#desplegable">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#desplegable"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="desplegable">
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a class="nav-link active" href="./index.html">Presentacion</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link " href="./cards">Hostels</a>
+                    <li class="nav-item"><a class="nav-link " href="./index.html">Destinos</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link " href="./servicios">servicios</a>
+                    <li class="nav-item"><a class="nav-link " href="./index.html">servicios</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link " href="./formulario">reservas</a>
+                    <li class="nav-item"><a class="nav-link " href="./index.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -44,8 +40,8 @@
     <section class="hero container mt-3 pb-3">
         <img class="img img-fluid rounded pb-3 " src="./assets/imagenes/imagenHero2.jpg" alt="imagen1">
         <div class="row">
-            <h1>Nombre del lugar</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias eum error officiis, amet adipisci in
+            <h1 class="tipografia ">Nombre del lugar</h1>
+            <p class="tipografia">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias eum error officiis, amet adipisci in
                 cum
                 quaerat voluptatum porro non illo suscipit minima iusto, id explicabo nulla delectus quisquam ex.</p>
         </div>
@@ -53,36 +49,36 @@
     </section>
 
     <section class="cards mb-2 bg-light">
-        <div class="container my-4 py-4">
-            <h2>Hostels</h2>
+        <div class="container  py-4">
+            <h1 class="tipografia2"><b>Destinos</b></h1>
             <div class="row justify-content-center">
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/bariloche.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
                 </div>
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/elBolson.jpeg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
                 </div>
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/elChalten.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
                 </div>
 
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/esquel.jpeg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
                 </div>
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/puertoMadryn.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
                 </div>
-                <div class="border rounded-3 shadow-lg text-center border-warning m-2 col-md-3">
+                <div class="border rounded-3 shadow-lg text-center border-warning m-2 p-3 col-md-3">
                     <img class="img-thumbnail" src="./assets/imagenes/sanMartinDeLosAndes.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis nisi placeat dolor
                         quibusdam</p>
@@ -92,22 +88,22 @@
         </div>
     </section>
 
-    <section class="container-fluid servicios bg-danger mb-2">
+    <section class="container-fluid servicios colorTerciario">
         <div class="row ">
-            <h1>seccion servicios (iconos)</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a quam vero commodi. Sapiente quis,
+            <h1 class="tipografia"><b>Servicios</b></h1>
+            <p class="tipografia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a quam vero commodi. Sapiente quis,
                 adipisci qui perspiciatis aliquam magni quam natus. Expedita quos architecto doloribus quo asperiores
                 voluptatum placeat?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a quam vero commodi. Sapiente quis,
+            <p class="tipografia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a quam vero commodi. Sapiente quis,
                 adipisci qui perspiciatis aliquam magni quam natus. Expedita quos architecto doloribus quo asperiores
                 voluptatum placeat?</p>
         </div>
     </section>
 
-    <section class="container formulario mb-2">
-        <h2>reservas</h2>
-        <h3>envienos su reserva</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit beatae exercitationem, a ullam qui
+    <section class="container-fluid formulario py-4 colorTerciario">
+        <h1 class="tipografia"><b>Contacto</b></h1>
+        <h3 class="tipografia">Envienos su consulta</h3>
+        <p class="tipografia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi velit beatae exercitationem, a ullam qui
             tempora similique nisi enim fugit dicta corporis corrupti sint sit! Aspernatur accusantium suscipit magni
             nulla!</p>
         <form action="">
@@ -115,27 +111,36 @@
             <input type="text">
             <input type="text">
             <input type="text">
-            <button class="btn btn-primary rounded-pill ms-2">enviar reserva</button>
+            <button class="btn btn-primary rounded-pill ms-2"><i class="bi bi-send"></i></button>
         </form>
     </section>
 
-    <footer class="container-fluid pt-3 colorSecundario">
-        <div class="row ">
-            <a class="navbar-brand  col" href="./footer">
-                <P class="tipografia">icono</P>
-            </a>
-            <ul class="col">
-                <li class=""><a class="text-decoration-none" href="">palabra1</a></li>
-                <li class=""><a class="text-decoration-none" href="">palabra2</a></li>
-                <li class=""><a class="text-decoration-none" href="">palabra3</a></li>
-            </ul>
-            <ul class="col">
-                <li class=""><a class="text-decoration-none" href="">palabra4</a></li>
-                <li class=""><a class="text-decoration-none" href="">palabra5</a></li>
-                <li class=""><a class="text-decoration-none" href="">palabra6</a></li>
-            </ul>
+    <footer class="container-fluid py-3 colorSecundario">
+        <div class="row justify-content-end">
+            <div class="col">
+                <a class="navbar-brand " href="./index.html">
+                    <h4 class="tipografia">Turismo Patagonia </h4>
+                </a>
+            </div>
+            <div class="d-flex col-8 flex-row justify-content-evenly">
+                <div class="d-flex flex-column text-end">
+                    <a class="aF text-decoration-none tipografia" href="">INICIO</a>
+                    <a class="aF text-decoration-none tipografia" href="">SOBRE NOSOTROS</a>
+                    <a class="aF text-decoration-none tipografia" href="">LEGALES</a>
+                </div>
+                <div class="d-flex flex-column text-end">
+                    <a class="aF text-decoration-none tipografia" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a class="aF text-decoration-none tipografia" href="https://twitter.com/?lang=es"><i class="bi bi-twitter"></i></a>
+                    <a class="aF text-decoration-none tipografia" href="https://www.whatsapp.com/?lang=es_LA"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
         </div>
     </footer>
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
