@@ -17,7 +17,7 @@
     font-style: italic;
 }
 .tipografia2{
-    color: #070F2B;
+    color: #1B1A55;
     font-style: italic;
 }
 .tipografia3{
@@ -26,6 +26,18 @@
 }
 .cambioColor{
     color: antiquewhite;
+    text-shadow: 1px 1px black;
+    font-style: italic;
 }
+.navbar-toggler{
+    background-color:floralwhite;
+}
+.card-fondo{
+    background-color:#535C91 ;
+}
+.destinos{
+    background-color: #969fcc;
+}
+
 
 /* #d9d9e3 */
